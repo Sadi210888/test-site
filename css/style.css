@@ -97,7 +97,7 @@ body {
     color: #007bff;
 }
 
-/* Рамка карточки загорается ТОЛЬКО если курсор НЕ на фото */
+/* Рамка карточки загорается ТОЛЬКО если курсор НЕ на фото, или не на тектсах */
 .card-container:hover .main-card:not(:has(.photo-box:hover, .school-name:hover, .student-name:hover)) {
     border-color: #007bff;
 }
